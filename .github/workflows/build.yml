@@ -147,7 +147,7 @@ jobs:
       - name: Clean Release Version Description
         if: ${{ success() && contains(github.event.head_commit.message, '[release]') }}
         run: |
-          sed.exe -i "s/\*\*\* We Stand with Ukraine \*\*\*//g" description.txt
+          ..\MPE\Tools\sed.exe -i "s/\*\*\* We Stand with Ukraine \*\*\*//g" description.txt
         working-directory: ${{ github.workspace }}\MPEI
         shell: cmd
 
@@ -161,7 +161,7 @@ jobs:
       - name: Clean Release Version Description
         if: ${{ success() && contains(github.event.head_commit.message, '[release]') }}
         run: |
-          sed.exe -i "s/ \//\//g" description.txt
+          ..\MPE\Tools\sed.exe -i "s/ \//\//g" description.txt
         working-directory: ${{ github.workspace }}\MPEI
         shell: cmd
 
