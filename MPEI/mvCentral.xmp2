@@ -766,11 +766,11 @@ Titan skin updated
 
 *** We Stand with Ukraine ***</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://github.com/andrewjswan/mvcentral/releases/download/v{VERSION}/mvCentral-{VERSION}.mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/andrewjswan/mvcentral/releases/download/v[Version]/mvCentral-[Version].mpe1</OnlineLocation>
     <ReleaseDate>2024-03-25T22:26:37</ReleaseDate>
     <Tags>music video last.fm</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
-    <Location>..\MPEI\Release\[Name]-MAJOR.MINOR.BUILD.REVISION.mpe1</Location>
+    <Location>..\MPEI\Release\[Name]-[Version].mpe1</Location>
     <Params>
       <Items>
         <SectionParam Name="Icon">
