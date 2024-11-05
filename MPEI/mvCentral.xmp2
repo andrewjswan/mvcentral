@@ -476,27 +476,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Skin\Titan\media\defaultArtist.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{aa7527d2-6c37-4156-8b1b-0d96df0590fc}-defaultArtist.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\media\defaultArtist.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Skin\Titan\media\defaultArtistBig.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{26d7d2c2-3da1-4a5e-a570-0281423a369e}-defaultArtistBig.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\media\defaultArtistBig.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Skin\Titan\media\DefaultGenre.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3ee1174a-7037-4a36-a1bf-8ef4d660921e}-DefaultGenre.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\media\DefaultGenre.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Skin\Titan\media\dialog_rating_background.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{c78356df-a502-4c57-ba46-a77912b1669f}-dialog_rating_background.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\media\dialog_rating_background.png</DestinationFilename>
@@ -507,6 +486,13 @@
               <LocalFileName>..\Skin\Titan\media\hover_mvcentral.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{76ee36d1-dd9e-40d1-a07c-096657dac988}-hover_mvcentral.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\media\hover_mvcentral.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Skin\Titan\media\basichome_button_mvcentral.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c22680c3-023a-48b8-9442-ee5f82eb39fd}-basichome_button_mvcentral.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\media\basichome_button_mvcentral.png</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -524,23 +510,6 @@
               <LocalFileName>..\Skin\TitanPlayStart\mvCentral.PlayStart.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{cc919293-2bd0-4344-928e-94ad1f9fd217}-mvCentral.PlayStart.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\mvCentral.PlayStart.xml</DestinationFilename>
-            </FileItem>
-          </Items>
-        </Files>
-      </GroupItem>
-      <GroupItem Name="Libraries">
-        <ParentGroup />
-        <DisplayName>Libraries</DisplayName>
-        <DefaulChecked>true</DefaulChecked>
-        <Description>Libraries</Description>
-        <Files>
-          <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
-              <Param1 />
-              <UpdateOption>NeverOverwrite</UpdateOption>
-              <LocalFileName>..\External\Newtonsoft.Json.dll</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{50f53661-d682-47cc-8271-d212a8aa3299}-Newtonsoft.Json.dll</ZipFileName>
-              <DestinationFilename>%Base%\Newtonsoft.Json.dll</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -752,22 +721,21 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Version>
       <Major>1</Major>
       <Minor>0</Minor>
-      <Build>8</Build>
+      <Build>9</Build>
       <Revision>0</Revision>
     </Version>
-    <ExtensionDescription>mvCentral is a plugin to catalog and play local Music Videos.
- 
-Last.FM, Discogs, Allmusic.com and Fanart.tv are used to provide metadata.
-
-The plugin will also scrobble playing videos to Last.FM and update your Library if required.
+    <ExtensionDescription>mvCentral is a plugin to catalog and play local Music Videos.
+ 
+Last.FM, Discogs, Allmusic.com and Fanart.tv are used to provide metadata.
+
+The plugin will also scrobble playing videos to Last.FM and update your Library if required.
 </ExtensionDescription>
-    <VersionDescription>Fix support x86 and x64 architectures.
-Titan skin updated
-
+    <VersionDescription>Titan skin updated
+
 *** We Stand with Ukraine ***</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/andrewjswan/mvcentral/releases/download/v[Version]/mvCentral-[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2024-03-25T22:26:37</ReleaseDate>
+    <ReleaseDate>2024-11-05T22:26:37</ReleaseDate>
     <Tags>music video last.fm</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
     <Location>..\MPEI\Release\[Name]-[Version].mpe1</Location>
@@ -1214,27 +1182,6 @@ Titan skin updated
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Skin\Titan\media\defaultArtist.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{aa7527d2-6c37-4156-8b1b-0d96df0590fc}-defaultArtist.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\media\defaultArtist.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Skin\Titan\media\defaultArtistBig.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{26d7d2c2-3da1-4a5e-a570-0281423a369e}-defaultArtistBig.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\media\defaultArtistBig.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Skin\Titan\media\DefaultGenre.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3ee1174a-7037-4a36-a1bf-8ef4d660921e}-DefaultGenre.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\media\DefaultGenre.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Skin\Titan\media\dialog_rating_background.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{c78356df-a502-4c57-ba46-a77912b1669f}-dialog_rating_background.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\media\dialog_rating_background.png</DestinationFilename>
@@ -1246,19 +1193,19 @@ Titan skin updated
         <ZipFileName>Installer{CopyFile}\{76ee36d1-dd9e-40d1-a07c-096657dac988}-hover_mvcentral.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\media\hover_mvcentral.png</DestinationFilename>
       </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Skin\Titan\media\basichome_button_mvcentral.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c22680c3-023a-48b8-9442-ee5f82eb39fd}-basichome_button_mvcentral.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\media\basichome_button_mvcentral.png</DestinationFilename>
+      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>AlwaysOverwrite</UpdateOption>
         <LocalFileName>..\Skin\TitanPlayStart\mvCentral.PlayStart.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{cc919293-2bd0-4344-928e-94ad1f9fd217}-mvCentral.PlayStart.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\mvCentral.PlayStart.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
-        <Param1 />
-        <UpdateOption>NeverOverwrite</UpdateOption>
-        <LocalFileName>..\External\Newtonsoft.Json.dll</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{50f53661-d682-47cc-8271-d212a8aa3299}-Newtonsoft.Json.dll</ZipFileName>
-        <DestinationFilename>%Base%\Newtonsoft.Json.dll</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true" Condition="None">
         <Param1 />
