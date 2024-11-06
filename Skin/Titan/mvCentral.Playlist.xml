@@ -88,7 +88,7 @@
       <posX>144</posX>
       <posY>38</posY>
       <width>855</width>
-      <font>fontB20</font>
+      <font>TitanLight22</font>  
       <textcolor>ffffff</textcolor>
       <label>mvCentral</label>
       <animation effect="fade" time="250">WindowOpen</animation>
@@ -98,10 +98,10 @@
       <type>fadelabel</type>
       <description>mvCentral Hierarchy</description>
       <id>1</id>
-      <posX>66</posX>
+      <posX>144</posX>
       <posY>100</posY>
       <align>left</align>
-      <font>fontB11</font>
+      <font>TitanLight12</font> 
       <width>600</width>
       <textcolor>ffffff</textcolor>
       <visible>yes</visible>

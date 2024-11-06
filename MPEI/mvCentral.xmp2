@@ -724,18 +724,25 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Build>9</Build>
       <Revision>0</Revision>
     </Version>
-    <ExtensionDescription>mvCentral is a plugin to catalog and play local Music Videos.
- 
-Last.FM, Discogs, Allmusic.com and Fanart.tv are used to provide metadata.
-
-The plugin will also scrobble playing videos to Last.FM and update your Library if required.
+    <ExtensionDescription>mvCentral is a plugin to catalog and play local Music Videos.
+
+ 
+
+Last.FM, Discogs, Allmusic.com and Fanart.tv are used to provide metadata.
+
+
+
+The plugin will also scrobble playing videos to Last.FM and update your Library if required.
+
 </ExtensionDescription>
-    <VersionDescription>Titan skin updated
-
+    <VersionDescription>Titan skin updated
+
+
+
 *** We Stand with Ukraine ***</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/andrewjswan/mvcentral/releases/download/v[Version]/mvCentral-[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2024-11-05T22:26:37</ReleaseDate>
+    <ReleaseDate>2024-11-06T22:26:37</ReleaseDate>
     <Tags>music video last.fm</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
     <Location>..\MPEI\Release\[Name]-[Version].mpe1</Location>

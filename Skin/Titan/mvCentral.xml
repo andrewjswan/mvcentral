@@ -145,7 +145,7 @@
       <posX>144</posX>
       <posY>38</posY>
       <width>855</width>
-      <font>fontB20</font>
+      <font>TitanLight22</font>  
       <textcolor>ffffff</textcolor>
       <label>mvCentral | #mvCentral.ViewAs</label>
       <animation effect="fade" time="250">WindowOpen</animation>
@@ -155,10 +155,10 @@
       <type>label</type>
       <description>Number of Files Label (Artist)</description>
       <id>1</id>
-      <posX>66</posX>
+      <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB11</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#(L(133)) #itemcount </label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.ArtistView,true)</visible>
@@ -169,10 +169,10 @@
       <type>label</type>
       <description>Number of Files Label (Genres)</description>
       <id>1</id>
-      <posX>66</posX>
+      <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB11</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#(L(135)) #itemcount </label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.GenreView,true)</visible>
@@ -183,10 +183,10 @@
       <type>label</type>
       <description>Number of Files Label (Album)</description>
       <id>1</id>
-      <posX>66</posX>
+      <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB11</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#(L(132)) #itemcount</label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.AlbumView,true)</visible>
@@ -197,10 +197,10 @@
       <type>label</type>
       <description>Number of Files Label (Videos)</description>
       <id>1</id>
-      <posX>66</posX>
+      <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB11</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#mvCentral.Translation.Videos.Label #itemcount</label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.TrackView,true)</visible>
@@ -295,7 +295,7 @@
       <animation effect="fade" time="250" delay="0">WindowOpen</animation>
       <visible>[facadeview.list|facadeview.smallicons|facadeview.largeicons]+string.equals(#mvCentral.AlbumView,true)</visible>
     </control>
-    <!--control>
+    <control>
       <id>1</id>
       <description>Album Indication Text</description>
       <type>fadelabel</type>
@@ -308,7 +308,7 @@
       <animation effect="fade" time="250" delay="0">WindowClose</animation>
       <animation effect="fade" time="250" delay="0">WindowOpen</animation>
       <visible>[facadeview.list|facadeview.smallicons|facadeview.largeicons]+string.equals(#mvCentral.AlbumView,true)</visible>
-    </control-->
+    </control>
     <control>
       <id>1</id>
       <description>Album Runtime and Tracks</description>
