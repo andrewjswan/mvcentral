@@ -78,6 +78,7 @@ jobs:
     uses: Mediaportal-Plugin-Team/Mediaportal-Tools/.github/workflows/codeql.yml@master
     with:
       build-file: build_git.bat
+      build-path: scripts
     needs:
       - build
       - changes
