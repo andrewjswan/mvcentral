@@ -630,6 +630,40 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <PanelName>Tree View Selector</PanelName>
         <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
       </SectionItem>
+      <SectionItem Guid="ae96bb96-a890-4e38-a5f1-47d694e6c591" Name="Install Section" ConditionGroup="" Condition="None">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="" Condition="None">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
       <SectionItem Guid="ce4fe657-5f09-47f7-97fc-f95c2af40bef" Name="Setup Complete" ConditionGroup="" Condition="None">
         <Params>
           <Items>
@@ -736,13 +770,14 @@ The plugin will also scrobble playing videos to Last.FM and update your Library 
 
 </ExtensionDescription>
     <VersionDescription>Titan skin updated
-
+Fix Update url
+Fix for MPEI
 
 
 *** We Stand with Ukraine ***</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://github.com/andrewjswan/mvcentral/releases/download/v[Version]/mvCentral-[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2024-11-06T22:26:37</ReleaseDate>
+    <OnlineLocation>https://github.com/andrewjswan/mvcentral/releases/download/v1.0.9.0/mvCentral-1.0.9.0.mpe1</OnlineLocation>
+    <ReleaseDate>2024-11-07T22:26:37</ReleaseDate>
     <Tags>music video last.fm</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
     <Location>..\MPEI\Release\[Name]-[Version].mpe1</Location>
@@ -1218,21 +1253,21 @@ The plugin will also scrobble playing videos to Last.FM and update your Library 
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>Resources\sidepanel.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{defddf62-a952-4174-8550-2cfcf75626d1}-sidepanel.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{49f0f9d0-c817-42df-9a8d-152f49bd3462}-sidepanel.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>Resources\mvCentral-logo.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3d81d0ea-c01d-4e35-89fc-252c2db04b48}-mvCentral-logo.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{60129540-e172-4a79-94f5-69e399a737bf}-mvCentral-logo.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\gfx\mvCentral-logo.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{bceab5e0-f364-4c99-a6c5-143b46c379c9}-mvCentral-logo.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{cfb805e3-4299-4605-94aa-92c875a5b56d}-mvCentral-logo.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
