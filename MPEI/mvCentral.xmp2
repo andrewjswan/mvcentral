@@ -717,7 +717,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Author>ajs/Trevor/Gup</Author>
     <HomePage>https://github.com/andrewjswan/mvcentral</HomePage>
     <ForumPage>https://forum.team-mediaportal.com/forums/mvcentral-music-videos-plugin.573/</ForumPage>
-    <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/Update/update.xml</UpdateUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/mvCentral.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
       <Minor>0</Minor>

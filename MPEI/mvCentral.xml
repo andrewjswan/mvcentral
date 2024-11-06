@@ -127,7 +127,7 @@
         <Author>ajs/Trevor/Gup</Author>
         <HomePage>https://github.com/andrewjswan/mvcentral</HomePage>
         <ForumPage>https://forum.team-mediaportal.com/forums/mvcentral-music-videos-plugin.573/</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/Update/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/mvCentral.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -311,7 +311,7 @@ Migrate to Github Action\
         <Author>ajs/Trevor/Gup</Author>
         <HomePage>https://github.com/andrewjswan/mvcentral</HomePage>
         <ForumPage>https://forum.team-mediaportal.com/forums/mvcentral-music-videos-plugin.573/</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/Update/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/mvCentral.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -495,7 +495,7 @@ Titan skin updated
         <Author>ajs/Trevor/Gup</Author>
         <HomePage>https://github.com/andrewjswan/mvcentral</HomePage>
         <ForumPage>https://forum.team-mediaportal.com/forums/mvcentral-music-videos-plugin.573/</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/Update/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/mvCentral.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -671,7 +671,7 @@ Titan skin updated
         <Author>ajs/Trevor/Gup</Author>
         <HomePage>https://github.com/andrewjswan/mvcentral</HomePage>
         <ForumPage>https://forum.team-mediaportal.com/forums/mvcentral-music-videos-plugin.573/</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/Update/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/mvCentral.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
@@ -853,7 +853,7 @@ The plugin will also scrobble playing videos to Last.FM and update your Library 
         <Author>ajs/Trevor/Gup</Author>
         <HomePage>https://github.com/andrewjswan/mvcentral</HomePage>
         <ForumPage>https://forum.team-mediaportal.com/forums/mvcentral-music-videos-plugin.573/</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/Update/update.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mvcentral/master/MPEI/mvCentral.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
           <Minor>0</Minor>
